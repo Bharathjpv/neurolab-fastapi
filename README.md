@@ -1,42 +1,25 @@
 # FastApi
 
-## Run the application
-### Step 1: Clone the repository
+![image](https://user-images.githubusercontent.com/115451707/196919992-edcfea8b-e3f6-4f35-9398-43be66b5622d.png)
 
-```bash
-git clone https://github.com/Bharathjpv/neurolab-fastapi.git
-```
-
-### Step 2- Create a conda environment
-
-```bash
-conda create -p venv python==3.9 -y
-```
-
-### Step 3- Activate
-```bash
-conda activate venv
-```
-
-### Step 3 - Install the requirements
-
+### Step 1 - Install the requirements
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 5 - Run the application server
+### Step 2 - Run the application server
 
 ```bash
 uvicorn app:app  --reload
 ```
-### Step 6. Test the server
+### Step 3. Test the server
 
-home route
+<b>Home route </b>
 
 ```bash
 http://localhost:8000
 ```
-items route
+<b>Items route</b>
 ```bash
 http://localhost:8000/items/78?q=myquery
 ```
